@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Puzzle.FormPuzzle">
+    <Position X="8" Y="2.75" Width="3.25" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="LoadGame" Hidden="true" />
+      <Field Name="menuStrip1" Hidden="true" />
+      <Field Name="SaveGame" Hidden="true" />
+      <Field Name="statusStrip1" Hidden="true" />
+      <Field Name="timerPuzzle" Hidden="true" />
+      <Field Name="toolStripMenuItem1" Hidden="true" />
+      <Field Name="toolStripMenuItem2" Hidden="true" />
+      <Field Name="toolStripSeparator1" Hidden="true" />
+      <Field Name="toolStripStatusLabel1" Hidden="true" />
+      <Field Name="toolStripStatusLabel2" Hidden="true" />
+      <Field Name="toolTip1" Hidden="true" />
+      <Field Name="выходToolStripMenuItem" Hidden="true" />
+      <Field Name="загрузитьКартинкуToolStripMenuItem" Hidden="true" />
+      <Field Name="играToolStripMenuItem" Hidden="true" />
+      <Field Name="начатьЗановоToolStripMenuItem" Hidden="true" />
+      <Field Name="подсказкаToolStripMenuItem" Hidden="true" />
+      <Field Name="показатьОригиналToolStripMenuItem" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Puzzle.FormPuzzle.rndcell" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FormPuzzle.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQQAxFEhJCAQEACCAASAIAACAAQAABgkBHAABAABAA0=</HashCode>
+      <FileName>FormPuzzle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Puzzle.Singleton">
+    <Position X="11.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAQCAAAAAAAAAAgAABAAAAAQAAAAAAAAAE=</HashCode>
+      <FileName>Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Puzzle.FuncSingleton">
+    <Position X="11.75" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAACAAKBAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Puzzle.move">
+    <Position X="5.25" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAACAAAAAAQAEEAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>moveControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Puzzle.IntefaceGame">
+    <Position X="5.25" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABgAAAAABAAAAAAAAAAAAAAEAAIAAAAAQACA=</HashCode>
+      <FileName>Facade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Puzzle.Functional">
+    <Position X="5.25" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Facade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Puzzle.Facade">
+    <Position X="5.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAARACAAAAQAIAAAAAAgAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Facade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Puzzle.Difficulty">
+    <Position X="11.75" Y="6.75" Width="2.5" />
+    <Members>
+      <Field Name="Button_Load_Play" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="radioButton1" Hidden="true" />
+      <Field Name="radioButton2" Hidden="true" />
+      <Field Name="radioButton3" Hidden="true" />
+      <Field Name="radioButton4" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAACAAEACAAAACAAAAAAAAACAAAAAAAAI=</HashCode>
+      <FileName>Difficulty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Puzzle.SourceImage">
+    <Position X="8" Y="0.5" Width="3.25" />
+    <Members>
+      <Field Name="ButtonClose" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBoxSource" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACAAABAAAACAAQDCAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>SourceImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
